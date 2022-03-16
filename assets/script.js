@@ -43,3 +43,12 @@ var timeCheck = function(timeElement){
     }
 };
 
+$(document).on("click", function(){
+    loadEntity();
+});
+
+$(document).ready(function(){
+    var date = moment().format("YYYY-MM-DD hh:mm:ss");
+    $("#currentDay").text(date);
+});
+
