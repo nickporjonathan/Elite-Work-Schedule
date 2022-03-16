@@ -25,7 +25,9 @@ var loadEntity = function () {
 };
 
 var timeCheck = function (timeElement) {
-  var hour = parseInt($(timeElement).find(".hour").attr("id").replace("hr"));
+  var hour = parseInt(
+    $(timeElement).find(".hour").attr("id").replace("hr", "")
+  );
   var time = moment().hour();
   if (hour < time) {
     $(timeElement).removeClass("present future");
