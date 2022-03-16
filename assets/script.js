@@ -1,4 +1,4 @@
-let taskIDs = [
+var taskIDs = [
     "0900",
     "1000",
     "1100",
@@ -23,3 +23,23 @@ var loadEntity = function(){
         $(`#${element}`).val(localStorage.getItem)(element));
     });
 };
+
+var timeCheck = function(timeElement){
+    var hour = parseInt(
+        $(timeElement).find(".hour").attr("id").replace("hr")
+    );
+    var time = moment().hour();
+    if(hour<time){
+        $(timeElement).removeClass("present future");
+        $(timeElement).addClass("past");
+    }
+    else if(hour===time){
+        $(timeElement).removeClass("past future");
+        $(timeElement).addClass("present");
+    }
+    else{
+        $(timeElement).removeClass("present past");
+        $(timeElement).addClass("future");
+    }
+};
+
