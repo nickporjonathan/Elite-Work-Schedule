@@ -1,4 +1,5 @@
 # Elite-Work-Schedule
+
 # Purpose
 An application built to help working individuals plan their day and stay organized.
 # Built With
@@ -6,4 +7,4 @@ An application built to help working individuals plan their day and stay organiz
 - CSS
 - JavaScript
 - JQuery
-
+# Website
