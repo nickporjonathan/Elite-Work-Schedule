@@ -8,3 +8,4 @@ An application built to help working individuals plan their day and stay organiz
 - JavaScript
 - JQuery
 # Website
+https://nickporjonathan.github.io/Elite-Work-Schedule/
