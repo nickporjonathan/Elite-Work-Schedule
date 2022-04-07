@@ -10,4 +10,4 @@ An application built to help working individuals plan their day and stay organiz
 # Website
 https://nickporjonathan.github.io/Elite-Work-Schedule/
 # Contribution
-Shout-out to Jacob Liberty for help with the work day schedular
+Shout-out to Jacob Liberty for help with the work day scheduler
